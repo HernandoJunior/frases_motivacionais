@@ -41,7 +41,7 @@ btnAgain.addEventListener('click', handleTryClick)
 function handleTryClick(){
   toggleClass()
   
-  if (screen2.classList.contains('hide')){
+  if (screen1.classList.contains('hide')){
     menssageStart.innerHTML = quotes[random]
     random = Math.round(Math.random() * 10)
   }
