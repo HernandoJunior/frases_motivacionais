@@ -28,7 +28,6 @@ const testClass = screen2.className;
 const mainClass = document.querySelector("main")
 const menssageStart = document.getElementById("menssageStart")
 
-let random = Math.round(Math.random() * 10)
 
 const btnTry = document.getElementById("fortune-cookie")
 const btnAgain = document.getElementById("btnAgain")
@@ -40,6 +39,7 @@ btnAgain.addEventListener('click', handleTryClick)
 //Funções callback
 function handleTryClick(){
   toggleClass()
+let random = Math.round(Math.random() * 10)
   
   if (screen1.classList.contains('hide')){
     menssageStart.innerHTML = quotes[random]
