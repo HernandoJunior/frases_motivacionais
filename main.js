@@ -24,10 +24,9 @@ let quotes = [
 ]
 const screen1 = document.querySelector(".screen1")
 const screen2 = document.querySelector(".screen2")
-const testClass = screen2.className;
+
 const mainClass = document.querySelector("main")
 const menssageStart = document.getElementById("menssageStart")
-
 
 const btnTry = document.getElementById("fortune-cookie")
 const btnAgain = document.getElementById("btnAgain")
