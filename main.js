@@ -43,9 +43,7 @@ function handleTryClick(){
   
   if (screen1.classList.contains('hide')){
     menssageStart.innerHTML = quotes[random]
-    random = Math.round(Math.random() * 10)
   }
-  console.log(random)
 }
 
 function toggleClass(){
